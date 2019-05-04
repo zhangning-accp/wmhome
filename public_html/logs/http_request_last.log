@@ -1,0 +1,201 @@
+## [2019-05-04 10:36:31] Request ##############################
+
+GET /feeds/discussions.rss HTTP/1.1
+Host: www.litecart.net
+User-Agent: LiteCart/2.1.3
+Connection: Close
+
+
+
+## [2019-05-04 10:36:32] Response — 9428 bytes transferred in 1.584 s ##############################
+
+HTTP/1.1 200 OK
+Date: Sat, 04 May 2019 02:36:32 GMT
+Content-Type: application/rss+xml; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+Set-Cookie: __cfduid=d360904303569feb493b48320ec4f093d1556937391; expires=Sun, 03-May-20 02:36:31 GMT; path=/; domain=.litecart.net; HttpOnly
+X-Powered-By: LiteCart HQ
+Expires: Sat, 04 May 2019 02:36:31 GMT
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Language: en
+Set-Cookie: LCSESSID=7eed9526adad9cecf5473169fff4603f; path=/
+Set-Cookie: language_code=en; expires=Mon, 03-Jun-2019 02:36:32 GMT; Max-Age=2592000; path=/
+Set-Cookie: cart[uid]=5cccfab07de7c; expires=Mon, 04-May-2020 02:36:32 GMT; Max-Age=31622400; path=/
+Set-Cookie: currency_code=USD; expires=Mon, 03-Jun-2019 02:36:32 GMT; Max-Age=2592000; path=/
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4d17166b1e2d9839-LAX
+
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>LiteCart Forum Discussions</title>
+    <link>https://www.litecart.net/en/forums/</link>
+    <description>The most recent forum activity.</description>
+    <language>en</language>
+    <item>
+      <category><![CDATA[Feature Requests]]></category>
+      <title><![CDATA[How do I add external products?]]></title>
+      <link>https://www.litecart.net/en/forums/5/feature-requests/9607/how-do-i-add-external-products</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[bogdan]]></author>
+      <pubDate>Fri, 03 May 2019 13:55:21 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[how to add a widget in litecart]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/9604/how-to-add-a-widget-in-litecart</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[gimenez70]]></author>
+      <pubDate>Thu, 02 May 2019 17:45:30 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Errors and Troubleshooting]]></category>
+      <title><![CDATA[Product images and memory]]></title>
+      <link>https://www.litecart.net/en/forums/15/errors-and-troubleshooting/2975/product-images-and-memory</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[bushmeister]]></author>
+      <pubDate>Wed, 01 May 2019 20:23:55 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Templates and CSS]]></category>
+      <title><![CDATA[How I can show manufacturer on order copy?]]></title>
+      <link>https://www.litecart.net/en/forums/12/templates-and-css/9546/how-i-can-show-manufacturer-on-order-copy</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[franz]]></author>
+      <pubDate>Wed, 01 May 2019 17:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Errors and Troubleshooting]]></category>
+      <title><![CDATA[Clicking on images in product lightbox]]></title>
+      <link>https://www.litecart.net/en/forums/15/errors-and-troubleshooting/9591/clicking-on-images-in-product-lightbox</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[skoruppa]]></author>
+      <pubDate>Tue, 30 Apr 2019 09:38:29 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[Shipping module with dropdown issue with ajax]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/9544/shipping-module-with-dropdown-issue-with-ajax</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[dodo]]></author>
+      <pubDate>Tue, 30 Apr 2019 00:51:18 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Feature Requests]]></category>
+      <title><![CDATA[Bundled products]]></title>
+      <link>https://www.litecart.net/en/forums/5/feature-requests/9574/bundled-products</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[vilaiporn]]></author>
+      <pubDate>Mon, 29 Apr 2019 20:06:17 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Installation and Configuration]]></category>
+      <title><![CDATA[Can't import translations]]></title>
+      <link>https://www.litecart.net/en/forums/3/installation-and-configuration/9585/can-t-import-translations</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[markus007]]></author>
+      <pubDate>Mon, 29 Apr 2019 20:00:53 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[Put a banner on category page?]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/9588/put-a-banner-on-category-page</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[alins]]></author>
+      <pubDate>Mon, 29 Apr 2019 17:43:29 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Errors and Troubleshooting]]></category>
+      <title><![CDATA[New install of V2.1.6 the checkout page is blank]]></title>
+      <link>https://www.litecart.net/en/forums/15/errors-and-troubleshooting/9567/new-install-of-v2-1-6-the-checkout-page-is-blank</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[kenne]]></author>
+      <pubDate>Sun, 28 Apr 2019 22:17:12 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Installation and Configuration]]></category>
+      <title><![CDATA[Weird path after installation]]></title>
+      <link>https://www.litecart.net/en/forums/3/installation-and-configuration/9517/weird-path-after-installation</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[markus007]]></author>
+      <pubDate>Sat, 27 Apr 2019 11:56:17 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[My first website with litecart]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/9571/my-first-website-with-litecart</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[gimenez70]]></author>
+      <pubDate>Fri, 26 Apr 2019 15:38:53 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Templates and CSS]]></category>
+      <title><![CDATA[New templates]]></title>
+      <link>https://www.litecart.net/en/forums/12/templates-and-css/8783/new-templates</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[dodo]]></author>
+      <pubDate>Fri, 26 Apr 2019 13:49:24 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[How do i remove the language and currencyselector ]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/9536/how-do-i-remove-the-language-and-currencyselector</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[patronbutiken]]></author>
+      <pubDate>Tue, 23 Apr 2019 22:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[No Status Update]]></title>
+      <link>https://www.litecart.net/en/forums/7/add-ons/9361/no-status-update</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[manusocken]]></author>
+      <pubDate>Tue, 23 Apr 2019 17:22:31 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Errors and Troubleshooting]]></category>
+      <title><![CDATA[Notice: Undefined index: name in]]></title>
+      <link>https://www.litecart.net/en/forums/15/errors-and-troubleshooting/9538/notice-undefined-index-name-in</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[patronbutiken]]></author>
+      <pubDate>Mon, 22 Apr 2019 10:31:47 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[Quantity price conflicts customer group price]]></title>
+      <link>https://www.litecart.net/en/forums/7/add-ons/9535/quantity-price-conflicts-customer-group-price</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[jsl]]></author>
+      <pubDate>Mon, 22 Apr 2019 07:37:02 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[Do I need to manually update orders?]]></title>
+      <link>https://www.litecart.net/en/forums/7/add-ons/8231/do-i-need-to-manually-update-orders</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[teamobsidion]]></author>
+      <pubDate>Sun, 21 Apr 2019 06:51:49 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Installation and Configuration]]></category>
+      <title><![CDATA[Update from 2.1.5 to 2.1.6]]></title>
+      <link>https://www.litecart.net/en/forums/3/installation-and-configuration/9526/update-from-2-1-5-to-2-1-6</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[tomkarz]]></author>
+      <pubDate>Sat, 20 Apr 2019 21:00:18 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[Payment - Shipping relationship. Is it possible? ]]></title>
+      <link>https://www.litecart.net/en/forums/7/add-ons/9514/payment-shipping-relationship-is-it-possible</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[skoruppa]]></author>
+      <pubDate>Thu, 18 Apr 2019 05:52:28 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
+
+
