@@ -18,20 +18,20 @@
 
     <div class="col-xs-auto">
       <a class="logotype" href="<?php echo document::href_ilink(''); ?>">
-        <img src="<?php echo WS_DIR_IMAGES; ?>logotype.png" style="max-width: 250px; max-height: 60px;" alt="<?php echo settings::get('store_name'); ?>" title="<?php echo settings::get('store_name'); ?>" />
+<!--        <img src="--><?php //echo WS_DIR_IMAGES; ?><!--logotype.png" style="max-width: 250px; max-height: 60px;" alt="--><?php //echo settings::get('store_name'); ?><!--" title="--><?php //echo settings::get('store_name'); ?><!--" />-->
       </a>
     </div>
 
     <div class="col-xs-auto text-center hidden-xs">
-      <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_region.inc.php'); ?>
+<!--      --><?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_region.inc.php'); ?>
     </div>
 
     <div class="col-xs-auto text-right">
-      <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_cart.inc.php'); ?>
+<!--      --><?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_cart.inc.php'); ?>
     </div>
   </header>
 
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_menu.inc.php'); ?>
+<!--  --><?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_menu.inc.php'); ?>
 
   <div id="main">
     {snippet:content}
@@ -39,7 +39,7 @@
 
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/site_cookie_notice.inc.php'); ?>
 
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_footer.inc.php'); ?>
+<!--  --><?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_footer.inc.php'); ?>
 </div>
 
 <a id="scroll-up" href="#">

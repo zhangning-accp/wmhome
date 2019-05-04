@@ -1,10 +1,10 @@
 <aside id="sidebar">
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/column_left.inc.php'); ?>
+<!--  --><?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/column_left.inc.php'); ?>
 </aside>
 
 <main id="content">
   {snippet:notices}
-  {snippet:breadcrumbs}
+<!--  {snippet:breadcrumbs}-->
 
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/box_product.inc.php'); ?>
 
