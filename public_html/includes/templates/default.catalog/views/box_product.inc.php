@@ -55,44 +55,44 @@
         <?php } ?>
       </div>
 
-<!--      <div class="tax" style="margin: 0 0 1em 0;">-->
-<!--       --><?php //if ($tax_rates) { ?>
-<!--        --><?php //echo $including_tax ? language::translate('title_including_tax', 'Including Tax') : language::translate('title_excluding_tax', 'Excluding Tax'); ?><!--: <span class="total-tax">--><?php //echo currency::format($total_tax); ?><!--</span>-->
-<!--       --><?php //} else { ?>
-<!--        --><?php //echo language::translate('title_excluding_tax', 'Excluding Tax'); ?>
-<!--       --><?php //} ?>
-<!--      </div>-->
+      <div class="tax" style="margin: 0 0 1em 0;">
+       <?php if ($tax_rates) { ?>
+        <?php echo $including_tax ? language::translate('title_including_tax', 'Including Tax') : language::translate('title_excluding_tax', 'Excluding Tax'); ?>: <span class="total-tax"><?php echo currency::format($total_tax); ?></span>
+       <?php } else { ?>
+        <?php echo language::translate('title_excluding_tax', 'Excluding Tax'); ?>
+       <?php } ?>
+      </div>
 
-<!--      --><?php //if ($cheapest_shipping_fee !== null) { ?>
-<!--      <div class="cheapest-shipping" style="margin: 1em 0;">-->
-<!--        --><?php //echo functions::draw_fonticon('fa-truck'); ?><!-- --><?php //echo strtr(language::translate('text_cheapest_shipping_from_price', 'Cheapest shipping from <strong class="value">%price</strong>'), array('%price' => currency::format($cheapest_shipping_fee))); ?>
-<!--      </div>-->
-<!--      --><?php //} ?>
+      <?php if ($cheapest_shipping_fee !== null) { ?>
+      <div class="cheapest-shipping" style="margin: 1em 0;">
+        <?php echo functions::draw_fonticon('fa-truck'); ?> <?php echo strtr(language::translate('text_cheapest_shipping_from_price', 'Cheapest shipping from <strong class="value">%price</strong>'), array('%price' => currency::format($cheapest_shipping_fee))); ?>
+      </div>
+      <?php } ?>
 
-<!--      --><?php //if ($sku || $mpn || $gtin) { ?>
-<!--      <div class="codes" style="margin: 1em 0;">-->
-<!--        --><?php //if ($sku) { ?>
-<!--        <div class="sku">-->
-<!--          --><?php //echo language::translate('title_sku', 'SKU'); ?><!--:-->
-<!--          <span class="value">--><?php //echo $sku; ?><!--</span>-->
-<!--        </div>-->
-<!--        --><?php //} ?>
-<!---->
-<!--        --><?php //if ($mpn) { ?>
-<!--        <div class="mpn">-->
-<!--          --><?php //echo language::translate('title_mpn', 'MPN'); ?><!--:-->
-<!--          <span class="value">--><?php //echo $mpn; ?><!--</span>-->
-<!--        </div>-->
-<!--        --><?php //} ?>
-<!---->
-<!--        --><?php //if ($gtin) { ?>
-<!--        <div class="gtin">-->
-<!--          --><?php //echo language::translate('title_gtin', 'GTIN'); ?><!--:-->
-<!--          <span class="value">--><?php //echo $gtin; ?><!--</span>-->
-<!--        </div>-->
-<!--        --><?php //} ?>
-<!--      </div>-->
-<!--      --><?php //} ?>
+      <?php if ($sku || $mpn || $gtin) { ?>
+      <div class="codes" style="margin: 1em 0;">
+        <?php if ($sku) { ?>
+        <div class="sku">
+          <?php echo language::translate('title_sku', 'SKU'); ?>:
+          <span class="value"><?php echo $sku; ?></span>
+        </div>
+        <?php } ?>
+
+        <?php if ($mpn) { ?>
+        <div class="mpn">
+          <?php echo language::translate('title_mpn', 'MPN'); ?>:
+          <span class="value"><?php echo $mpn; ?></span>
+        </div>
+        <?php } ?>
+
+        <?php if ($gtin) { ?>
+        <div class="gtin">
+          <?php echo language::translate('title_gtin', 'GTIN'); ?>:
+          <span class="value"><?php echo $gtin; ?></span>
+        </div>
+        <?php } ?>
+      </div>
+      <?php } ?>
 
       <div class="stock-status" style="margin: 1em 0;">
        <?php if ($quantity > 0) { ?>
@@ -121,7 +121,7 @@
        <?php } ?>
       </div>
 
-<!--      <hr />-->
+      <hr />
 
 <!--      <div class="buy_now" style="margin: 1em 0;">-->
 <!--        --><?php //echo functions::form_draw_form_begin('buy_now_form', 'post'); ?>
@@ -212,10 +212,10 @@
 
 </div>
 
-<!--<script>-->
-<!--  Number.prototype.toMoney = function() {-->
-<!--    var number = this;-->
-<!--    var decimals = --><?php //echo currency::$selected['decimals']; ?>//;
+<script>
+//  Number.prototype.toMoney = function() {
+//    var number = this;
+//    var decimals = <?php //echo currency::$selected['decimals']; ?>//;
 //    var decimal_point = '<?php //echo language::$selected['decimal_point']; ?>//';
 //    var thousands_sep = '<?php //echo language::$selected['thousands_sep']; ?>//';
 //    var prefix = '<?php //echo currency::$selected['prefix']; ?>//';
@@ -267,4 +267,4 @@
 //    e.preventDefault();
 //    prompt("<?php //echo language::translate('text_link_to_this_product', 'Link to this product'); ?>//", '<?php //echo $link; ?>//');
 //  });
-//</script>
+</script>
