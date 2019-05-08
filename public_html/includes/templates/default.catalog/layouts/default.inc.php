@@ -49,5 +49,7 @@
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
 {snippet:javascript}
+
+<script> var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?fd666150b0ca2b73f3f1c158ee2079fc"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script>
 </body>
 </html>
