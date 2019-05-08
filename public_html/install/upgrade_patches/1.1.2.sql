@@ -1,1 +1,0 @@
-ALTER TABLE `lc_languages` ADD `mysql_collation` VARCHAR(32) NOT NULL AFTER `charset`;

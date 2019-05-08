@@ -14,9 +14,16 @@
           <?php } else { ?>
           <span class="price"><?php echo currency::format($regular_price); ?></span>
           <?php } ?>
+            <?php
+                if($quantity < 1) {
+                    echo "<span style='color:red;'>(库存情况:售罄)</span>";
+                } else {
+                    echo "<span style='color:green;'>(库存情况:".floor($quantity).")</span>";
+                }?>
         </div>
       </a>
     </div>
+
   </div>
 <?php } else if ($listing_type == 'row') { ?>
   <div class="col-xs-12">
