@@ -49,7 +49,9 @@
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
 {snippet:javascript}
-
+<!--百度商桥的代码-->
 <script> var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?fd666150b0ca2b73f3f1c158ee2079fc"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script>
+<!--cnzz 的代码-->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1277528410'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1277528410' type='text/javascript'%3E%3C/script%3E"));</script>
 </body>
 </html>
