@@ -1,3 +1,10 @@
+<style>
+    .campaign-price {
+        /*font-weight: bold;*/
+        color: #cc0000;
+        white-space: nowrap;
+    }
+</style>
 <?php if ($listing_type == 'column') { ?>
   <div class="col-xs-6 col-sm-4 col-md-3">
     <div class="product column hover-light" data-id="<?php echo $product_id; ?>" data-name="<?php echo htmlspecialchars($name); ?>" data-price="<?php echo currency::format_raw($campaign_price ? $campaign_price : $regular_price); ?>">
@@ -6,19 +13,19 @@
           <img class="image img-responsive" src="<?php echo htmlspecialchars($image['thumbnail']); ?>" srcset="<?php echo htmlspecialchars($image['thumbnail']); ?> 1x, <?php echo htmlspecialchars($image['thumbnail_2x']); ?> 2x" alt="<?php echo htmlspecialchars($name); ?>" />
           <?php echo $sticker; ?>
         </div>
-        <div class="name"><?php echo $name; ?></div>
-        <div class="manufacturer"><?php echo !empty($manufacturer) ? $manufacturer['name'] : '&nbsp;'; ?></div>
+          <div class="manufacturer"><?php echo !empty($manufacturer) ? $manufacturer['name'] : '&nbsp;'; ?></div>
+          <div class="name"><?php echo $name; ?></div>
         <div class="price-wrapper">
           <?php if ($campaign_price) { ?>
-          <s class="regular-price"><?php echo currency::format($regular_price); ?></s> <strong class="campaign-price"><?php echo currency::format($campaign_price); ?></strong>
+            <s class="regular-price" style="text-decoration: none">正价：<?php echo currency::format($regular_price); ?></s></br><strong class="campaign-price">vip:<?php echo currency::format($campaign_price); ?></strong>
           <?php } else { ?>
           <span class="price"><?php echo currency::format($regular_price); ?></span>
           <?php } ?>
             <?php
                 if($quantity < 1) {
-                    echo "<span style='color:red;'>(库存情况:售罄)</span>";
+                    echo "</br><span style='color:red;'>(库存:售罄)</span>";
                 } else {
-                    echo "<span style='color:green;'>(库存情况:".floor($quantity).")</span>";
+                    echo "</br><span style='color:green;'>(库存:".floor($quantity).")</span>";
                 }?>
         </div>
       </a>
